@@ -1,0 +1,174 @@
+/* CSS STYLES
+
+The following CSS rules are provided here as only
+a starting point; these properties aren't required, and
+you may modify them however you like (or remove them)
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #9dffb0;
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+  color: #c48d3f;
+}
+
+
+#container {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#intro1 {
+  margin-top: 150px;
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  padding-right: 200px;
+  padding-left: 200px;
+  color: #c48d3f;
+  font-size: 40px;
+
+}
+
+#intro {
+  flex: 1 0 75%;
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  padding-right: 100px;
+  padding-left: 200px;
+  color: #c48d3f;
+  font-size: 22px;
+  padding-top: 100px;
+
+
+}
+
+#isabella {
+  flex: 1 0 25%;
+  padding-right: 300px;
+  padding-bottom: 50px;
+}
+
+#container2 {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+
+#umbrellas-intro {
+  flex: 1 0 25%;
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+  color: #c48d3f;
+  margin-left: 100px;
+  text-align: justify;
+  margin-right: 10px;
+  font-size: 20px;
+  
+
+}
+
+#umbrellas-intro1 {
+  flex: 1 0 25%;
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+  color: #c48d3f;
+  padding-top: 57px;
+  margin-right: 100px;
+  text-align: justify;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+
+
+.axisLabel {
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
+
+}
+
+h1 {
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff563;
+  background-color: #c48d3f;
+  margin-left: 350px;
+  margin-right: 350px;
+  border: 10px solid #c48d3f;
+  border-radius: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
+a:link {
+  text-decoration: none;
+  color: #b88ec8;
+}
+a:hover {
+  background-color: #81f1f7;
+  text-decoration: underline;
+}
+
+#chart {
+  background-color: #c48d3f;
+  color: #fff563;
+  margin-left: 15px;
+  margin-right: 500px;
+  padding-right: 500px;
+  padding-left: 50px;
+  border: 2px solid #c48d3f;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+
+#header2 {
+  color: #fff563;
+  background-color:#c48d3f;
+  margin-left: 15px;
+  margin-right: 500px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  margin-top: 50px;
+  text-align: left;
+  padding-left: 340px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border: 2px solid #c48d3f;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+
+
+.tooltip {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  visibility: hidden;
+  font-size: 14pt;
+  color: #c48d3f;
+  background-color: #9dffb0;
+  padding: 2px;
+  pointer-events: none;
+  font-family: Optima, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fences {
+  margin-bottom: 100px;
+}
+
+
+

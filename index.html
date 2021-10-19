@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <script src="https://d3js.org/d3.v6.min.js"></script>
+    </head>
+    <body>
+        
+            <h1 id="header"> Animal Crossing: New Horizons Umbrella Prices </h1>
+            
+            <h2 id="intro1">Animal Crossing Dataset</h2>
+                <div id="content">
+                    <div id ="container">  
+                                <p id="intro"> This data displays the buying and selling prices of umbrellas in the Nintendo video game Animal Crossing: New Horizons, and it can be found on the <a href="https://www.kaggle.com/jessicali9530/animal-crossing-new-horizons-nookplaza-dataset?select=umbrellas.csv">Kaggle</a> website. Below I will discuss the dataset in further deatil. The monetary value in this game is called Bells. </p>
+                                <div id="isabella"> 
+                                    <img src="./images/isabella.svg" width = 300 height = 300>
+                                </div>
+                    </div>
+                    <div id="fences">
+                        <img src="./images/ItemFenceNatural.svg">
+                    </div> 
+                    <div id="container2" class="body">
+                        <div id="umbrellas-intro">
+                            <h3> Umbrellas </h3>
+                                <p> My umbrella dataset includes 68 different kinds of umbrellas one can attain in the game at various points. 7 of the 68 can only be crafted by the player, so I did not include those in any of my analysis. Also, I noticed a trend of repeating buying and selling values. There are 11 different variations of a buying price with a specific corresponding selling price. On the graph you can see each of the 11 pricing variations in the game. Out of the 61 umbrellas that you can buy and sell in the game, the pricing will be one of these 11 data points. </p>
+                        </div>
+                        <div id="umbrellas-intro1">
+                                <p> In the graph below there is a clear positive linear relationship between the buying and selling price of the umbrellas. I also noticed that the selling price for all of the umbrellas are much lower than the buying price. It would be interesting to compare other items that could be bought and sold in the game and see if there is a similar trend in data. </p>
+                        </div>
+                    </div>
+                    
+                    <div id="chart-container">
+                            <h2 id="header2">Umbrella Prices </h2>
+                            <div id="chart"></div>
+                    </div>
+                    <div id="ocean">
+                            <img src="./images/ocean.svg">
+                    </div>
+                    <p> <i><b>Graphics are owned by Nintendo.</b></i></p>
+
+                </div>        
+        <script src="./script.js"></script>
+    </body>
+</html>
